@@ -1,0 +1,145 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hello", "Hi", "Hey", "Good day", "Good morning", "Good afternoon"],
+            "responses": ["Hello! How can I assist you today?", "Hi there! How can I help you?", "Good day! What can I do for you?"]
+        },
+        {
+            "tag": "admission",
+            "patterns": ["How do I apply?", "What are the admission requirements?", "What documents do I need to submit for admission?", "How can I enroll?", "Where do I submit my application?", "Can I apply online?"],
+            "responses": ["You can apply by visiting our admissions office or online on our website.", "Admission requirements vary based on student type. Please visit our website for details."]
+        },
+        {
+            "tag": "freshmen_requirements",
+            "patterns": ["What are the requirements for freshmen?", "What do I need for freshman admission?", "What documents are required for first-year students?", "Do freshmen need a placement exam?"],
+            "responses": ["Freshmen applicants need to submit: Placement exam result, 2x2 colored ID pictures (2 copies), Good Moral Certificate, Birth Certificate (2 photocopies), and Report Card (original and photocopy)."]
+        },
+        {
+            "tag": "transferee_requirements",
+            "patterns": ["What are the requirements for transferees?", "How can a transferee apply?", "What documents are needed for transfer students?", "Do transferees need an Honorable Dismissal?"],
+            "responses": ["Transferees must submit: Placement exam result, 2x2 colored ID pictures (2 copies), Good Moral Certificate, Birth Certificate (2 photocopies), Transcript of Records (original and 2 photocopies), and Honorable Dismissal (original and 2 photocopies)."]
+        },
+        {
+            "tag": "returnee_requirements",
+            "patterns": ["What are the requirements for returnees?", "How do I re-enroll if I am a returning student?", "What does a returnee need to submit?", "Do returning students need to submit grades?"],
+            "responses": ["Returnees need to submit a copy of their grades from the last semester attended."]
+        },
+        {
+            "tag": "tuition_fees",
+            "patterns": ["How much is the tuition?", "What are the fees?", "How much do I need to pay for enrollment?", "Where can I check the tuition fee breakdown?", "Tuition fees for this semester", "Cost of enrollment"],
+            "responses": ["Tuition fees vary by program. Please check our official website or visit the finance office for details."]
+        },
+        {
+            "tag": "payment_methods",
+            "patterns": ["How can I pay my tuition?", "What are the available payment methods?", "Can I pay online?", "Do you accept installment payments?"],
+            "responses": ["You can pay via bank deposit, online payment, or at the cashier’s offices. Installment plans may be available."]
+        },
+        {
+            "tag": "scholarships",
+            "patterns": ["Are there any scholarships available?", "How can I apply for a scholarship?", "What are the requirements for scholarships?", "Do you offer financial aid?"],
+            "responses": ["We offer various scholarships and financial aid programs. Please visit our scholarships office for more details."]
+        },
+        {
+            "tag": "contact_info",
+            "patterns": ["How can I contact the registrar’s office?", "What is the contact number for inquiries?", "Where is the registrar’s office located?", "Can I email the registrar’s office?"],
+            "responses": ["You can contact the registrar’s office via email at registrar@university.edu or call us at (123) 456-7890."]
+        },
+        {
+            "tag": "enrollment",
+            "patterns": ["How do I enroll?", "When is enrollment?", "Where do I submit my requirements?", "What are the enrollment steps?", "Is online enrollment available?"],
+            "responses": ["Enrollment is open on specific dates. Please check our website for details.", "Submit your requirements at the registrar's office or through the online portal."]
+        },
+        {
+            "tag": "documents",
+            "patterns": ["How do I request my TOR?", "Where can I get a certificate of enrollment?", "How long does it take to process documents?", "Can I request documents online?", "What are the requirements for a transcript?"],
+            "responses": ["Request your TOR at the registrar's office or online.", "Certificates are available at the registrar's office. Processing time depends on the document type."]
+        },
+        {
+            "tag": "subject_enrollment",
+            "patterns": ["How do I add a subject?", "Can I drop a subject?", "When is the deadline for adding/dropping subjects?", "Where do I enroll in my subjects?", "What if my subject is full?"],
+            "responses": ["Add or drop subjects through the student portal.", "Deadlines for changes are posted on the university website."]
+        },
+        {
+            "tag": "dropping_out",
+            "patterns": ["How do I drop out?", "What are the steps to withdraw from school?", "Do I need to submit any forms to drop out?", "Where do I process my withdrawal?", "Can I re-enroll after dropping out?"],
+            "responses": ["Visit the registrar's office to process your withdrawal.", "Submit the required forms to officially drop out.", "Yes, you can re-enroll after following the re-admission process."]
+        },
+        {
+            "tag": "graduate_school",
+            "patterns": ["What graduate programs are available?", "Tell me about master's and doctoral degrees.", "What postgraduate courses are offered?"],
+            "responses": ["The Graduate School offers the following programs:\n- Doctor of Philosophy in Education (Majors: Educational Leadership, Applied Linguistics, Counseling)\n- Master of Arts in Educational Management\n- Master in Business Administration (Non-Thesis)\n- Master of Science in Information Technology"]
+        },
+        {
+            "tag": "bachelor_of_science_in_accountancy",
+            "patterns": ["Tell me about the Bachelor of Science in Accountancy.","What is BSA", "What is the BS Accountancy program?", "What will I learn in Accountancy?", "Is Accountancy a good course?", "What are the career opportunities for Accountancy graduates?"],
+            "responses": ["The Bachelor of Science in Accountancy (BSA) program focuses on financial reporting, auditing, taxation, and business law. It prepares students for careers as accountants, auditors, and financial analysts. Graduates may pursue licensure as a Certified Public Accountant (CPA)."]
+        },
+        {
+            "tag": "bachelor_of_science_in_management_accounting",
+            "patterns": ["Tell me about the Bachelor of Science in Management Accounting.","What is BSMA?", "What is the BS Management Accounting program?", "What will I learn in Management Accounting?", "What are the career opportunities for Management Accounting graduates?"],
+            "responses": ["The Bachelor of Science in Management Accounting (BSMA) emphasizes financial planning, cost management, and internal auditing. Graduates can work as management accountants, financial analysts, or budget officers in corporate and business settings."]
+        },
+        {
+            "tag": "bachelor_of_science_in_accounting_information_system",
+            "patterns": ["Tell me about the Bachelor of Science in Accounting Information System.","What is BSAIS?", "What is the BS Accounting Information System program?", "What will I learn in Accounting Information System?", "What are the career opportunities for Accounting Information System graduates?"],
+            "responses": ["The Bachelor of Science in Accounting Information System (BSAIS) program integrates accounting principles with information technology. It prepares students for careers in financial data management, IT auditing, and systems analysis."]
+        },
+        {
+            "tag": "bachelor_of_science_in_business_administration_financial_management",
+            "patterns": ["Tell me about the Bachelor of Science in Business Administration major in Financial Management.", "What is BSBA-FM?","What is the BSBA in Financial Management program?", "What will I learn in Financial Management?", "What are the career opportunities for Financial Management graduates?"],
+            "responses": ["The Bachelor of Science in Business Administration major in Financial Management (BSBA-FM) focuses on financial planning, investments, and banking. Graduates can work as financial analysts, investment consultants, or credit analysts."]
+        },
+        {
+            "tag": "bachelor_of_science_in_business_administration_marketing_management",
+            "patterns": ["Tell me about the Bachelor of Science in Business Administration major in Marketing Management.", "What is BSBA-MM?","What is the BSBA in Marketing Management program?", "What will I learn in Marketing Management?", "What are the career opportunities for Marketing Management graduates?"],
+            "responses": ["The Bachelor of Science in Business Administration major in Marketing Management (BSBA-MM) focuses on advertising, sales strategies, and consumer behavior. Graduates can become marketing specialists, brand managers, or sales executives."]
+        },
+        {
+            "tag": "bachelor_of_science_in_business_administration_human_resource_management",
+            "patterns": ["Tell me about the Bachelor of Science in Business Administration major in Human Resource Management.","What is BSBA-HRM?", "What is the BSBA in Human Resource Management program?", "What will I learn in Human Resource Management?", "What are the career opportunities for Human Resource Management graduates?"],
+            "responses": ["The Bachelor of Science in Business Administration major in Human Resource Management (BSBA-HRM) trains students in recruitment, employee relations, and organizational behavior. Graduates can work as HR specialists, recruitment officers, or training managers."]
+        },
+        {
+            "tag": "bachelor_of_science_in_real_estate_management",
+            "patterns": ["Tell me about the Bachelor of Science in Real Estate Management.", "What is the BS Real Estate Management program?","What is BSREM?", "What will I learn in Real Estate Management?", "What are the career opportunities for Real Estate Management graduates?"],
+            "responses": ["The Bachelor of Science in Real Estate Management (BSREM) covers property valuation, real estate laws, and brokerage. Graduates can become real estate brokers, property managers, or land appraisers."]
+        },
+        {
+            "tag": "bachelor_of_arts_in_communication",
+            "patterns": ["Tell me about the Bachelor of Arts in Communication.","What is BAC course?", "What is the BA Communication program?", "What is BAC?","What will I learn in Communication?", "What are the career opportunities for Communication graduates?"],
+            "responses": ["The Bachelor of Arts in Communication (BAC) program focuses on media studies, journalism, and public relations. Graduates can work as journalists, media producers, or corporate communicators."]
+        },
+        {
+            "tag": "bachelor_of_arts_in_psychology",
+            "patterns": ["Tell me about the Bachelor of Arts in Psychology.", "What is the BA Psychology program?", "What will I learn in Psychology?", "What is BAP","What are the career opportunities for Psychology graduates?"],
+            "responses": ["The Bachelor of Arts in Psychology (BAP) program studies human behavior and mental processes. Graduates can work as HR specialists, counselors, or pursue further studies in clinical psychology."]
+        },
+        {
+            "tag": "bachelor_of_science_in_computer_science",
+            "patterns": ["Tell me about the Bachelor of Science in Computer Science.", "What is the BS Computer Science program?", "What will I learn in Computer Science?", "What is BSBCS?", "What are the career opportunities for Computer Science graduates?"],
+            "responses": ["The Bachelor of Science in Computer Science (BSCS) program covers programming, artificial intelligence, and data structures. Graduates can work as software engineers, AI specialists, or system developers."]
+        },
+        {
+            "tag": "bachelor_of_science_in_information_technology",
+            "patterns": ["Tell me about the Bachelor of Science in Information Technology.", "What is the BS Information Technology program?","What is BSIT?", "What will I learn in Information Technology?", "What are the career opportunities for Information Technology graduates?"],
+            "responses": ["The Bachelor of Science in Information Technology (BSIT) program focuses on networking, cybersecurity, and database management. Graduates can become IT specialists, cybersecurity analysts, or cloud engineers."]
+        },
+        {
+            "tag": "bachelor_of_science_in_nursing",
+            "patterns": ["Tell me about the Bachelor of Science in Nursing.", "What is the BS Nursing program?", "What will I learn in Nursing?", "What is BSN?","Is Nursing a good course?", "What are the career opportunities for Nursing graduates?"],
+            "responses": ["The Bachelor of Science in Nursing (BSN) program prepares students in patient care, clinical procedures, and hospital management. Graduates can become registered nurses, healthcare administrators, or clinical researchers."]
+        },
+        {
+            "tag": "master_of_science_in_information_technology",
+            "patterns": ["Tell me about the Master of Science in Information Technology.", "What is the MSIT program?", "What will I learn in MSIT?", "What are the career opportunities for MSIT graduates?"],
+            "responses": ["The Master of Science in Information Technology (MSIT) program focuses on advanced topics in software development, data science, and IT management. Graduates can work as IT consultants, researchers, or technology executives."]
+        },
+
+        {
+            "tag": "exit",
+            "patterns": ["Bye", "See you", "Goodbye", "Thanks, bye"],
+            "responses": ["Goodbye! Have a great day!", "See you next time!", "Take care!"]
+        }
+    ]
+}
